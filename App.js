@@ -26,7 +26,9 @@ import LittleLemonFooter from './components/LittleLemonFooter';
 import * as React from 'react';
 import { View } from 'react-native';
 import LittleLemonHeader from './components/LittleLemonHeader';
-import MenuItems from './components/MenuItems';
+// import MenuItems from './components/MenuItems';
+import MenuItems from './components/MenuItemsSectionList';
+import FeedbackForm from './components/TextInput';
 
 export default function App() {
   return (
@@ -37,7 +39,7 @@ export default function App() {
         backgroundColor: '#333333',
       }}>
       <LittleLemonHeader />
-      <MenuItems />
+      <FeedbackForm />
     </View>
     <View style={{ backgroundColor: '#333333' }}>
     <LittleLemonFooter />

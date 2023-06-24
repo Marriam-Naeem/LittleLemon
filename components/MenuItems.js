@@ -1,3 +1,5 @@
+//using FlatList
+
 import React from 'react';
 
 import { View, Text, FlatList , ScrollView, StyleSheet } from 'react-native';
